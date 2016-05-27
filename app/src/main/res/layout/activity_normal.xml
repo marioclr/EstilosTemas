@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select One"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_radio"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:text="One" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_radio"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:text="Two" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_radio"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:text="Three" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select All"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:minWidth="@dimen/checkboxWidth"
+            android:text="One"
+            android:textColor="@color/text_checkbox"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:minWidth="@dimen/checkboxWidth"
+            android:text="Two"
+            android:textColor="@color/text_checkbox"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:minHeight="@dimen/buttonHeight"
+            android:minWidth="@dimen/checkboxWidth"
+            android:text="Three"
+            android:textColor="@color/text_checkbox"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:minWidth="@dimen/buttonWidth"
+            android:text="@android:string/ok"
+            android:textColor="@color/accentPink" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:minWidth="@dimen/buttonWidth"
+            android:text="@android:string/cancel"
+            android:textColor="@color/accentPink" />
+    </TableRow>
+</TableLayout>
